@@ -1,5 +1,5 @@
 # docker-web-apache
-A basic docker web stack with NGINX, Php, Redis, and Mysql
+A basic docker web stack with Apache, Php, Redis, and Mysql
 
 **Basic Usage**
 1. Clone into your local project directory.
