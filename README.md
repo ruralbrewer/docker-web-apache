@@ -1,5 +1,5 @@
-**docker-web-nginx**
-A basic docker web stack with NGINX, Php, Redis, and Mysql
+# docker-web-nginx
+A basic docker web stack with Apache, Php, Redis, and Mysql
 
 **Basic Usage**
 
