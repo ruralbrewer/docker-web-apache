@@ -1,4 +1,4 @@
-# docker-web-nginx
+# docker-web-apache
 A basic docker web stack with Apache, Php, Redis, and Mysql
 
 **Basic Usage**
