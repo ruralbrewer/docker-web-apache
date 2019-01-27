@@ -9,7 +9,7 @@ services:
         volumes:
             - ./${SOURCE_DIR}:/usr/local/apache2/htdocs
         networks:
-            - backend
+            - Backend
     php:
         build:
             context: .
@@ -17,7 +17,7 @@ services:
         ports:
             - ${PHP_PORT}:9000
         volumes:
-            - ./${SOURCE_DIR}:/usr/share/nginx/html
+            - ./${SOURCE_DIR}:/usr/local/apache2/htdocs
         networks:
             - Backend
     redis:
