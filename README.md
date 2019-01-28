@@ -18,6 +18,7 @@ That's it!
 - For whatever reason it takes some time before the database accepts log ins. You will likely see an error the first time you load the test page. Wait a bit (seconds not minutes) and refresh. It should eventually show up.
 
 **Deploying**
+
 There are really only a few things you need to do in order to deploy these containers. Setting up a server that can run the containers is beyond the scope here. But once you have something set up (there are many options - Amazon ECS is one example) here are the basics steps to proceed.
 - Instead of mounting the public_html directory, you should copy the files to the appropriate containers (Apache and PHP).
 - You will probably want to change the exposed http port to be standard (port 80).
@@ -25,4 +26,5 @@ There are really only a few things you need to do in order to deploy these conta
 - Then just build and tag the containers and push them to your server. Again the specifics of how to do this are beyond the scope of this project. 
 
 **Final Word**
+
 This is a simple way to get started with a dockerized web stack. However I have not done any optimizing of this configuration. That part is up to you! 
