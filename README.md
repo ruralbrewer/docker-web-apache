@@ -13,6 +13,6 @@ That's it!
 **Special Notes:**
 
 - **IMPORTANT** This is a local set up. Everything except MYSQL container can be deployed (with some tweaking), but it is not a good idea to deploy MYSQL as a docker container.
-- You can now copy any files that you want to serve into the "public-html" directory.
+- You can now copy any files that you want to serve into the "public_html" directory.
 - If you want you can update the variables in the .env file. *Be aware that this could break things.*
 - For whatever reason it takes some time before the database accepts log ins. You will likely see an error the first time you load the test page. Wait a bit (seconds not minutes) and refresh. It should eventually show up.
