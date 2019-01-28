@@ -5,7 +5,7 @@ A basic docker web stack with Apache, Php, Redis, and Mysql
 
 1. Clone into your local project directory.
 2. Obviously you have to have docker installed (and running), as well as docker compose ;) https://www.docker.com/
-3. On the command line cd into the directory and run 'docker-compose up --build -d'
+3. On the command line cd into the directory and run `docker-compose up --build -d`
 4. Visit localhost:9090 in your favorite browser.
 
 That's it!
